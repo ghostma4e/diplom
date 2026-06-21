@@ -1,0 +1,236 @@
+<mxfile host="app.diagrams.net" agent="Hackathon Panel" version="22.1.0">
+  <diagram id="functional-schema" name="Функциональная схема">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Легенда -->
+        <mxCell id="legend-title" value="Легенда" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="20" width="80" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="leg-rect" value="Страница" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="40" y="48" width="90" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="leg-para" value="Действие" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="140" y="48" width="100" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="leg-hex" value="Результат" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="250" y="44" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="leg-cyl" value="База данных" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=12;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="360" y="44" width="90" height="56" as="geometry" />
+        </mxCell>
+
+        <!-- Точка входа -->
+        <mxCell id="entry" value="Hackathon Panel 2026" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1a1a2e;strokeColor=#5eead4;fontColor=#ffffff;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="280" y="120" width="640" height="44" as="geometry" />
+        </mxCell>
+
+        <!-- ===== ВЕТКА 1: ГЛАВНАЯ ===== -->
+        <mxCell id="p-home" value="Страница&#xa;Главная" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="200" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a-home-stats" value="Просмотр&#xa;статистики" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="30" y="280" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r-stats" value="Общая&#xa;статистика" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="35" y="350" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a-home-board" value="Просмотр&#xa;рейтинга" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="30" y="430" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r-board" value="Таблица&#xa;лидеров" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="35" y="500" width="130" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- ===== ВЕТКА 2: МЕРОПРИЯТИЯ ===== -->
+        <mxCell id="p-events" value="Страница&#xa;Мероприятия" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="200" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r-evlist" value="Список&#xa;мероприятий" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="215" y="280" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a-join" value="Принять&#xa;участие" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="210" y="360" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r-joined" value="Участие в&#xa;мероприятии" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="215" y="430" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a-admin-ev" value="Создать / удалить&#xa;мероприятие (орг.)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="200" y="510" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a-rate" value="Оценить проект&#xa;(дизайн, техника, задачи)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="195" y="580" width="170" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="r-rating" value="Оценка&#xa;жюри" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="215" y="650" width="130" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- ===== ВЕТКА 3: КОМАНДА ===== -->
+        <mxCell id="p-team" value="Страница&#xa;Команда" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="200" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a-create-team" value="Создать&#xa;команду" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="400" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="a-join-team" value="Ввести&#xa;инвайт-код" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="540" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r-myteam" value="Моя&#xa;команда" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="465" y="360" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a-score" value="Обновить&#xa;очки (лидер)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="410" y="440" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="a-disband" value="Распустить&#xa;команду" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="550" y="440" width="120" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- ===== ВЕТКА 4: ПРОЕКТЫ ===== -->
+        <mxCell id="p-projects" value="Страница&#xa;Проекты" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="200" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r-gallery" value="Галерея&#xa;проектов" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="715" y="280" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a-filter" value="Выбор фильтра&#xa;по технологиям" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="710" y="360" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="a-add-proj" value="Добавить проект&#xa;(стек, GitHub)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="705" y="440" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r-project" value="Опубликованный&#xa;проект" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="715" y="510" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a-link" value="Привязать к&#xa;мероприятию" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="710" y="590" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r-linked" value="Проект привязан&#xa;к треку" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="715" y="660" width="130" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- ===== ВЕТКА 5: ПРОФИЛЬ ===== -->
+        <mxCell id="p-profile" value="Страница&#xa;Профиль" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="200" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a-reg" value="Регистрация /&#xa;авторизация" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="920" y="280" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="a-guest" value="Без&#xa;регистрации" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="a-login" value="Ввод логина&#xa;и пароля" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="920" y="360" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r-profile" value="Профиль&#xa;пользователя" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="955" y="430" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a-avatar" value="Выбор аватара&#xa;(файл / иконка)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="950" y="510" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r-prof-stats" value="Статистика&#xa;(ивенты, проекты)" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="955" y="580" width="130" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- ===== МИНИ-ИГРЫ (доп.) ===== -->
+        <mxCell id="p-games" value="Страница&#xa;Мини-игры" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="200" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a-play" value="Играть&#xa;(Змейка / Память / Реакция)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1145" y="290" width="150" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="r-best" value="Лучший&#xa;результат" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1155" y="370" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="db-local" value="localStorage&#xa;(рекорды игр)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=12;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1165" y="460" width="110" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- ===== БАЗЫ ДАННЫХ ===== -->
+        <mxCell id="db-users" value="Данные аккаунтов&#xa;и мероприятий&#xa;&#xa;users&#xa;hackathon_events&#xa;event_participations" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f5f5f5;strokeColor=#666666;align=center;" vertex="1" parent="1">
+          <mxGeometry x="320" y="820" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="db-teams" value="Команды, проекты,&#xa;оценки жюри&#xa;&#xa;teams, team_members&#xa;projects, project_ratings" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f5f5f5;strokeColor=#666666;align=center;" vertex="1" parent="1">
+          <mxGeometry x="620" y="820" width="200" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- ===== СТРЕЛКИ: entry -> pages ===== -->
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;" edge="1" parent="1" source="entry" target="p-home"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;" edge="1" parent="1" source="entry" target="p-events"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;" edge="1" parent="1" source="entry" target="p-team"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;" edge="1" parent="1" source="entry" target="p-projects"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;" edge="1" parent="1" source="entry" target="p-profile"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e5b" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;" edge="1" parent="1" source="entry" target="p-games"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <!-- Главная flow -->
+        <mxCell id="h1" style="endArrow=classic;html=1;" edge="1" parent="1" source="p-home" target="a-home-stats"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="h2" style="endArrow=classic;html=1;" edge="1" parent="1" source="a-home-stats" target="r-stats"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="h3" style="endArrow=classic;html=1;" edge="1" parent="1" source="r-stats" target="a-home-board"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="h4" style="endArrow=classic;html=1;" edge="1" parent="1" source="a-home-board" target="r-board"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <!-- Мероприятия flow -->
+        <mxCell id="ev1" style="endArrow=classic;html=1;" edge="1" parent="1" source="p-events" target="r-evlist"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="ev2" style="endArrow=classic;html=1;" edge="1" parent="1" source="r-evlist" target="a-join"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="ev3" style="endArrow=classic;html=1;" edge="1" parent="1" source="a-join" target="r-joined"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="ev4" style="endArrow=classic;html=1;" edge="1" parent="1" source="r-evlist" target="a-admin-ev"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="ev5" style="endArrow=classic;html=1;dashed=1;" edge="1" parent="1" source="a-admin-ev" target="r-evlist"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="ev6" style="endArrow=classic;html=1;" edge="1" parent="1" source="r-evlist" target="a-rate"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="ev7" style="endArrow=classic;html=1;" edge="1" parent="1" source="a-rate" target="r-rating"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <!-- Команда flow -->
+        <mxCell id="t1" style="endArrow=classic;html=1;" edge="1" parent="1" source="p-team" target="a-create-team"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="t2" style="endArrow=classic;html=1;" edge="1" parent="1" source="p-team" target="a-join-team"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="t3" style="endArrow=classic;html=1;" edge="1" parent="1" source="a-create-team" target="r-myteam"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="t4" style="endArrow=classic;html=1;" edge="1" parent="1" source="a-join-team" target="r-myteam"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="t5" style="endArrow=classic;html=1;" edge="1" parent="1" source="r-myteam" target="a-score"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="t6" style="endArrow=classic;html=1;" edge="1" parent="1" source="r-myteam" target="a-disband"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <!-- Проекты flow -->
+        <mxCell id="pr1" style="endArrow=classic;html=1;" edge="1" parent="1" source="p-projects" target="r-gallery"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="pr2" style="endArrow=classic;html=1;" edge="1" parent="1" source="r-gallery" target="a-filter"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="pr3" style="endArrow=classic;dashed=1;html=1;" edge="1" parent="1" source="a-filter" target="r-gallery"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="pr4" style="endArrow=classic;html=1;" edge="1" parent="1" source="r-gallery" target="a-add-proj"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="pr5" style="endArrow=classic;html=1;" edge="1" parent="1" source="a-add-proj" target="r-project"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="pr6" style="endArrow=classic;html=1;" edge="1" parent="1" source="r-project" target="a-link"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="pr7" style="endArrow=classic;html=1;" edge="1" parent="1" source="a-link" target="r-linked"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <!-- Профиль flow -->
+        <mxCell id="pf1" style="endArrow=classic;html=1;" edge="1" parent="1" source="p-profile" target="a-reg"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="pf2" style="endArrow=classic;html=1;" edge="1" parent="1" source="p-profile" target="a-guest"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="pf3" style="endArrow=classic;html=1;" edge="1" parent="1" source="a-reg" target="a-login"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="pf4" style="endArrow=classic;html=1;" edge="1" parent="1" source="a-login" target="r-profile"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="pf5" style="endArrow=classic;html=1;" edge="1" parent="1" source="r-profile" target="a-avatar"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="pf6" style="endArrow=classic;html=1;" edge="1" parent="1" source="a-avatar" target="r-prof-stats"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="pf7" style="endArrow=classic;html=1;dashed=1;" edge="1" parent="1" source="a-guest" target="entry"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1140" y="142" /></Array></mxGeometry></mxCell>
+
+        <!-- Мини-игры flow -->
+        <mxCell id="g1" style="endArrow=classic;html=1;" edge="1" parent="1" source="p-games" target="a-play"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="g2" style="endArrow=classic;html=1;" edge="1" parent="1" source="a-play" target="r-best"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="g3" style="endArrow=classic;html=1;" edge="1" parent="1" source="r-best" target="db-local"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <!-- Cross: участие -> проекты -->
+        <mxCell id="cross1" value="нужно участие" style="endArrow=classic;html=1;dashed=1;strokeColor=#5eead4;fontColor=#5eead4;" edge="1" parent="1" source="r-joined" target="a-add-proj"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="cross2" style="endArrow=classic;html=1;dashed=1;strokeColor=#5eead4;" edge="1" parent="1" source="r-joined" target="a-link"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <!-- DB connections -->
+        <mxCell id="db1" style="endArrow=classic;html=1;" edge="1" parent="1" source="r-stats" target="db-teams"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="db2" style="endArrow=classic;html=1;" edge="1" parent="1" source="r-board" target="db-teams"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="db3" style="endArrow=classic;html=1;" edge="1" parent="1" source="r-joined" target="db-users"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="db4" style="endArrow=classic;html=1;" edge="1" parent="1" source="r-evlist" target="db-users"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="db5" style="endArrow=classic;html=1;" edge="1" parent="1" source="r-rating" target="db-teams"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="db6" style="endArrow=classic;html=1;" edge="1" parent="1" source="r-myteam" target="db-teams"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="db7" style="endArrow=classic;html=1;" edge="1" parent="1" source="r-project" target="db-teams"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="db8" style="endArrow=classic;html=1;" edge="1" parent="1" source="r-linked" target="db-teams"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="db9" style="endArrow=classic;html=1;" edge="1" parent="1" source="r-prof-stats" target="db-users"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="db10" style="endArrow=classic;html=1;" edge="1" parent="1" source="r-profile" target="db-users"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <!-- Заголовок схемы -->
+        <mxCell id="title" value="Функциональная схема — Hackathon Panel (КВПТК)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontStyle=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="400" y="960" width="400" height="30" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1360" height="1060" viewBox="0 0 1360 1060">
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#000000"/>
+    </marker>
+  </defs>
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <text x="48" y="32" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="600">Легенда</text><g>
+    <rect x="48" y="42" width="82" height="30" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+    <text x="89" y="57" text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#000"><tspan x="89" dy="5">Страница</tspan></text>
+  </g><g>
+    <polygon points="154,42 238,42 226,72 142,72" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+    <text x="190" y="57" text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" fill="#000"><tspan x="190" dy="5">Действие</tspan></text>
+  </g><g>
+    <polygon points="269.28,38 330.72,38 348,57 330.72,76 269.28,76 252,57" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+    <text x="300" y="57" text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" fill="#000"><tspan x="300" dy="5">Результат</tspan></text>
+  </g><g>
+    <path d="M 362 45 L 362 81" fill="none" stroke="#000000" stroke-width="1.2"/>
+    <path d="M 450 45 L 450 81" fill="none" stroke="#000000" stroke-width="1.2"/>
+    <ellipse cx="406" cy="45" rx="44" ry="9" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+    <rect x="362" y="45" width="88" height="36" fill="#FFFFFF" stroke="none"/>
+    <ellipse cx="406" cy="81" rx="44" ry="9" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+    <text x="406" y="63" text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="9.5" fill="#000"><tspan x="406" dy="0">База данных</tspan></text>
+  </g><g>
+    <rect x="280" y="100" width="800" height="40" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+    <text x="680" y="120" text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="600" fill="#000"><tspan x="680" dy="5">Hackathon Panel 2026</tspan></text>
+  </g><g>
+    <rect x="36" y="175" width="118" height="42" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+    <text x="95" y="196" text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="600" fill="#000"><tspan x="95" dy="-4">Страница</tspan><tspan x="95" dy="14">Главная</tspan></text>
+  </g><line x1="95" y1="217" x2="95" y2="233" stroke="#000000" stroke-width="1.2" marker-end="url(#arr)" /><g>
+    <polygon points="45,233 157,233 145,269 33,269" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+    <text x="95" y="251" text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" fill="#000"><tspan x="95" dy="-4">Просмотр</tspan><tspan x="95" dy="14">статистики</tspan></text>
+  </g><line x1="95" y1="269" x2="95" y2="285" stroke="#000000" stroke-width="1.2" marker-end="url(#arr)" /><g>
+    <polygon points="57.239999999999995,285 132.76,285 154,307 132.76,329 57.239999999999995,329 36,307" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+    <text x="95" y="307" text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" fill="#000"><tspan x="95" dy="-4">Общая</tspan><tspan x="95" dy="14">статистика</tspan></text>
+  </g><line x1="95" y1="329" x2="95" y2="345" stroke="#000000" stroke-width="1.2" marker-end="url(#arr)" /><g>
+    <polygon points="45,345 157,345 145,381 33,381" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+    <text x="95" y="363" text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" fill="#000"><tspan x="95" dy="-4">Просмотр</tspan><tspan x="95" dy="14">рейтинга</tspan></text>
+  </g><line x1="95" y1="381" x2="95" y2="397" stroke="#000000" stroke-width="1.2" marker-end="url(#arr)" /><g>
+    <polygon points="57.239999999999995,397 132.76,397 154,419 132.76,441 57.239999999999995,441 36,419" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+    <text x="95" y="419" text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" fill="#000"><tspan x="95" dy="-4">Таблица</tspan><tspan x="95" dy="14">лидеров</tspan></text>
+  </g><g>
+    <rect x="216" y="175" width="118" height="42" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+    <text x="275" y="196" text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="600" fill="#000"><tspan x="275" dy="-4">Страница</tspan><tspan x="275" dy="14">Мероприятия</tspan></text>
+  </g><line x1="275" y1="217" x2="275" y2="233" stroke="#000000" stroke-width="1.2" marker-end="url(#arr)" /><g>
+    <polygon points="237.24,233 312.76,233 334,255 312.76,277 237.24,277 216,255" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+    <text x="275" y="255" text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" fill="#000"><tspan x="275" dy="-4">Список</tspan><tspan x="275" dy="14">мероприятий</tspan></text>
+  </g><line x1="275" y1="293" x2="275" y2="309" stroke="#000000" stroke-width="1.2" marker-end="url(#arr)" /><g>
+    <polygon points="219,309 343,309 331,345 207,345" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+    <text x="275" y="327" text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" fill="#000"><tspan x="275" dy="-4">Принять</tspan><tspan x="275" dy="14">участие</tspan></text>
+  </g><line x1="275" y1="345" x2="275" y2="361" stroke="#000000" stroke-width="1.2" marker-end="url(#arr)" /><g>
+    <polygon points="237.24,361 312.76,361 334,383 312.76,405 237.24,405 216,383" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+    <text x="275" y="383" text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" fill="#000"><tspan x="275" dy="-4">Участие в</tspan><tspan x="275" dy="14">мероприятии</tspan></text>
+  </g><line x1="275" y1="421" x2="275" y2="437" stroke="#000000" stroke-width="1.2" marker-end="url(#arr)" /><g>
+    <polygon points="209,437 353,437 341,473 197,473" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+    <text x="275" y="455" text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" fill="#000"><tspan x="275" dy="-4">Создать / удалить</tspan><tspan x="275" dy="14">мероприятие (орг.)</tspan></text>
+  </g><line x1="275" y1="473" x2="330" y2="255" stroke="#000000" stroke-width="1.2" marker-end="url(#arr)" stroke-dasharray="5 4"/><line x1="275" y1="489" x2="275" y2="505" stroke="#000000" stroke-width="1.2" marker-end="url(#arr)" /><g>
+    <polygon points="205,505 357,505 345,541 193,541" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+    <text x="275" y="523" text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" fill="#000"><tspan x="275" dy="-4">Оценить проект</tspan><tspan x="275" dy="14">(дизайн, техника, задачи)</tspan></text>
+  </g><line x1="275" y1="541" x2="275" y2="557" stroke="#000000" stroke-width="1.2" marker-end="url(#arr)" /><g>
+    <polygon points="237.24,557 312.76,557 334,579 312.76,601 237.24,601 216,579" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+    <text x="275" y="579" text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" fill="#000"><tspan x="275" dy="-4">Оценка</tspan><tspan x="275" dy="14">жюри</tspan></text>
+  </g><g>
+    <rect x="416" y="175" width="118" height="42" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+    <text x="475" y="196" text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="600" fill="#000"><tspan x="475" dy="-4">Страница</tspan><tspan x="475" dy="14">Команда</tspan></text>
+  </g><line x1="475" y1="217" x2="475" y2="233" stroke="#000000" stroke-width="1.2" marker-end="url(#arr)" /><g>
+    <polygon points="432,233 528,233 516,269 420,269" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+    <text x="474" y="251" text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" fill="#000"><tspan x="474" dy="-4">Создать</tspan><tspan x="474" dy="14">команду</tspan></text>
+  </g><g>
+    <polygon points="534,233 630,233 618,269 522,269" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+    <text x="576" y="251" text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" fill="#000"><tspan x="576" dy="-4">Ввести</tspan><tspan x="576" dy="14">инвайт-код</tspan></text>
+  </g><line x1="474" y1="269" x2="475" y2="285" stroke="#000000" stroke-width="1.2" marker-end="url(#arr)" /><line x1="528" y1="269" x2="475" y2="285" stroke="#000000" stroke-width="1.2" marker-end="url(#arr)" /><g>
+    <polygon points="437.24,285 512.76,285 534,307 512.76,329 437.24,329 416,307" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+    <text x="475" y="307" text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" fill="#000"><tspan x="475" dy="-4">Моя</tspan><tspan x="475" dy="14">команда</tspan></text>
+  </g><line x1="475" y1="345" x2="475" y2="361" stroke="#000000" stroke-width="1.2" marker-end="url(#arr)" /><g>
+    <polygon points="432,361 528,361 516,397 420,397" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+    <text x="474" y="379" text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" fill="#000"><tspan x="474" dy="-4">Обновить</tspan><tspan x="474" dy="14">очки (лидер)</tspan></text>
+  </g><g>
+    <polygon points="534,361 630,361 618,397 522,397" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+    <text x="576" y="379" text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" fill="#000"><tspan x="576" dy="-4">Распустить</tspan><tspan x="576" dy="14">команду</tspan></text>
+  </g><g>
+    <rect x="636" y="175" width="118" height="42" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+    <text x="695" y="196" text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="600" fill="#000"><tspan x="695" dy="-4">Страница</tspan><tspan x="695" dy="14">Проекты</tspan></text>
+  </g><line x1="695" y1="217" x2="695" y2="233" stroke="#000000" stroke-width="1.2" marker-end="url(#arr)" /><g>
+    <polygon points="657.24,233 732.76,233 754,255 732.76,277 657.24,277 636,255" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+    <text x="695" y="255" text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" fill="#000"><tspan x="695" dy="-4">Галерея</tspan><tspan x="695" dy="14">проектов</tspan></text>
+  </g><line x1="695" y1="293" x2="695" y2="309" stroke="#000000" stroke-width="1.2" marker-end="url(#arr)" /><g>
+    <polygon points="635,309 767,309 755,345 623,345" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+    <text x="695" y="327" text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" fill="#000"><tspan x="695" dy="-4">Выбор фильтра</tspan><tspan x="695" dy="14">по технологиям</tspan></text>
+  </g><line x1="695" y1="345" x2="760" y2="255" stroke="#000000" stroke-width="1.2" marker-end="url(#arr)" stroke-dasharray="5 4"/><line x1="695" y1="361" x2="695" y2="377" stroke="#000000" stroke-width="1.2" marker-end="url(#arr)" /><g>
+    <polygon points="635,377 767,377 755,413 623,413" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+    <text x="695" y="395" text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" fill="#000"><tspan x="695" dy="-4">Добавить проект</tspan><tspan x="695" dy="14">(стек, GitHub)</tspan></text>
+  </g><line x1="695" y1="413" x2="695" y2="429" stroke="#000000" stroke-width="1.2" marker-end="url(#arr)" /><g>
+    <rect x="636" y="429" width="118" height="42" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+    <text x="695" y="450" text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#000"><tspan x="695" dy="-4">Опубликованный</tspan><tspan x="695" dy="14">проект</tspan></text>
+  </g><line x1="695" y1="487" x2="695" y2="503" stroke="#000000" stroke-width="1.2" marker-end="url(#arr)" /><g>
+    <polygon points="639,503 763,503 751,539 627,539" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+    <text x="695" y="521" text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" fill="#000"><tspan x="695" dy="-4">Привязать к</tspan><tspan x="695" dy="14">мероприятию</tspan></text>
+  </g><line x1="695" y1="539" x2="695" y2="555" stroke="#000000" stroke-width="1.2" marker-end="url(#arr)" /><g>
+    <polygon points="657.24,555 732.76,555 754,577 732.76,599 657.24,599 636,577" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+    <text x="695" y="577" text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" fill="#000"><tspan x="695" dy="-4">Проект привязан</tspan><tspan x="695" dy="14">к треку</tspan></text>
+  </g><g>
+    <rect x="846" y="175" width="118" height="42" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+    <text x="905" y="196" text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="600" fill="#000"><tspan x="905" dy="-4">Страница</tspan><tspan x="905" dy="14">Профиль</tspan></text>
+  </g><line x1="905" y1="217" x2="855" y2="243" stroke="#000000" stroke-width="1.2" marker-end="url(#arr)" /><line x1="905" y1="217" x2="955" y2="243" stroke="#000000" stroke-width="1.2" marker-end="url(#arr)" /><g>
+    <polygon points="807,233 915,233 903,269 795,269" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+    <text x="855" y="251" text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" fill="#000"><tspan x="855" dy="-4">Регистрация /</tspan><tspan x="855" dy="14">авторизация</tspan></text>
+  </g><g>
+    <polygon points="982,233 1078,233 1066,269 970,269" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+    <text x="1024" y="251" text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" fill="#000"><tspan x="1024" dy="-4">Без</tspan><tspan x="1024" dy="14">регистрации</tspan></text>
+  </g><line x1="855" y1="269" x2="855" y2="285" stroke="#000000" stroke-width="1.2" marker-end="url(#arr)" /><g>
+    <polygon points="807,285 915,285 903,321 795,321" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+    <text x="855" y="303" text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" fill="#000"><tspan x="855" dy="-4">Ввод логина</tspan><tspan x="855" dy="14">и пароля</tspan></text>
+  </g><line x1="855" y1="321" x2="905" y2="337" stroke="#000000" stroke-width="1.2" marker-end="url(#arr)" /><g>
+    <polygon points="867.24,337 942.76,337 964,359 942.76,381 867.24,381 846,359" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+    <text x="905" y="359" text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" fill="#000"><tspan x="905" dy="-4">Профиль</tspan><tspan x="905" dy="14">пользователя</tspan></text>
+  </g><line x1="905" y1="397" x2="905" y2="413" stroke="#000000" stroke-width="1.2" marker-end="url(#arr)" /><g>
+    <polygon points="849,413 973,413 961,449 837,449" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+    <text x="905" y="431" text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" fill="#000"><tspan x="905" dy="-4">Выбор аватара</tspan><tspan x="905" dy="14">(файл / иконка)</tspan></text>
+  </g><line x1="905" y1="449" x2="905" y2="465" stroke="#000000" stroke-width="1.2" marker-end="url(#arr)" /><g>
+    <polygon points="867.24,465 942.76,465 964,487 942.76,509 867.24,509 846,487" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+    <text x="905" y="487" text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" fill="#000"><tspan x="905" dy="-4">Статистика</tspan><tspan x="905" dy="14">(ивенты, проекты)</tspan></text>
+  </g><line x1="1024" y1="251" x2="680" y2="118" stroke="#000000" stroke-width="1.2" marker-end="url(#arr)" stroke-dasharray="5 4"/><text x="1030" y="118" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#333">режим зрителя</text><g>
+    <rect x="1046" y="175" width="118" height="42" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+    <text x="1105" y="196" text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="600" fill="#000"><tspan x="1105" dy="-4">Страница</tspan><tspan x="1105" dy="14">Мини-игры</tspan></text>
+  </g><line x1="1105" y1="217" x2="1105" y2="233" stroke="#000000" stroke-width="1.2" marker-end="url(#arr)" /><g>
+    <polygon points="1035,233 1187,233 1175,269 1023,269" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+    <text x="1105" y="251" text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" fill="#000"><tspan x="1105" dy="-4">Играть</tspan><tspan x="1105" dy="14">(Змейка / Память / Реакция)</tspan></text>
+  </g><line x1="1105" y1="269" x2="1105" y2="285" stroke="#000000" stroke-width="1.2" marker-end="url(#arr)" /><g>
+    <polygon points="1067.24,285 1142.76,285 1164,307 1142.76,329 1067.24,329 1046,307" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+    <text x="1105" y="307" text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" fill="#000"><tspan x="1105" dy="-4">Лучший</tspan><tspan x="1105" dy="14">результат</tspan></text>
+  </g><line x1="1105" y1="329" x2="1105" y2="345" stroke="#000000" stroke-width="1.2" marker-end="url(#arr)" /><g>
+    <path d="M 1041 354 L 1041 404" fill="none" stroke="#000000" stroke-width="1.2"/>
+    <path d="M 1169 354 L 1169 404" fill="none" stroke="#000000" stroke-width="1.2"/>
+    <ellipse cx="1105" cy="354" rx="64" ry="9" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+    <rect x="1041" y="354" width="128" height="50" fill="#FFFFFF" stroke="none"/>
+    <ellipse cx="1105" cy="404" rx="64" ry="9" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+    <text x="1105" y="379" text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="9.5" fill="#000"><tspan x="1105" dy="0">localStorage</tspan><tspan x="1105" dy="12">(рекорды игр)</tspan></text>
+  </g><line x1="95" y1="140" x2="95" y2="175" stroke="#000000" stroke-width="1.2" marker-end="url(#arr)" /><line x1="275" y1="140" x2="275" y2="175" stroke="#000000" stroke-width="1.2" marker-end="url(#arr)" /><line x1="475" y1="140" x2="475" y2="175" stroke="#000000" stroke-width="1.2" marker-end="url(#arr)" /><line x1="695" y1="140" x2="695" y2="175" stroke="#000000" stroke-width="1.2" marker-end="url(#arr)" /><line x1="905" y1="140" x2="905" y2="175" stroke="#000000" stroke-width="1.2" marker-end="url(#arr)" /><line x1="1105" y1="140" x2="1105" y2="175" stroke="#000000" stroke-width="1.2" marker-end="url(#arr)" /><line x1="334" y1="383" x2="650" y2="379" stroke="#000000" stroke-width="1.2" marker-end="url(#arr)" stroke-dasharray="5 4"/><text x="470" y="375" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#333">нужно участие</text><g>
+    <path d="M 300 869 L 300 937" fill="none" stroke="#000000" stroke-width="1.2"/>
+    <path d="M 510 869 L 510 937" fill="none" stroke="#000000" stroke-width="1.2"/>
+    <ellipse cx="405" cy="869" rx="105" ry="9" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+    <rect x="300" y="869" width="210" height="68" fill="#FFFFFF" stroke="none"/>
+    <ellipse cx="405" cy="937" rx="105" ry="9" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+    <text x="405" y="903" text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="9.5" fill="#000"><tspan x="405" dy="0">Данные аккаунтов и мероприятий</tspan><tspan x="405" dy="12">users · events · participations</tspan></text>
+  </g><g>
+    <path d="M 620 869 L 620 937" fill="none" stroke="#000000" stroke-width="1.2"/>
+    <path d="M 850 869 L 850 937" fill="none" stroke="#000000" stroke-width="1.2"/>
+    <ellipse cx="735" cy="869" rx="115" ry="9" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+    <rect x="620" y="869" width="230" height="68" fill="#FFFFFF" stroke="none"/>
+    <ellipse cx="735" cy="937" rx="115" ry="9" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+    <text x="735" y="903" text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="9.5" fill="#000"><tspan x="735" dy="0">Команды, проекты, оценки жюри</tspan><tspan x="735" dy="12">teams · projects · ratings</tspan></text>
+  </g><line x1="95" y1="441" x2="405" y2="860" stroke="#000000" stroke-width="1.2" marker-end="url(#arr)" /><line x1="275" y1="383" x2="405" y2="860" stroke="#000000" stroke-width="1.2" marker-end="url(#arr)" /><line x1="275" y1="579" x2="735" y2="860" stroke="#000000" stroke-width="1.2" marker-end="url(#arr)" /><line x1="475" y1="329" x2="735" y2="860" stroke="#000000" stroke-width="1.2" marker-end="url(#arr)" /><line x1="695" y1="577" x2="735" y2="860" stroke="#000000" stroke-width="1.2" marker-end="url(#arr)" /><line x1="905" y1="487" x2="405" y2="860" stroke="#000000" stroke-width="1.2" marker-end="url(#arr)" /><text x="680" y="1040" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="600">Функциональная схема — Hackathon Panel (КВПТК)</text>
+</svg>
