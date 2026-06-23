@@ -33,6 +33,7 @@ app.use(
   })
 );
 app.use(express.json());
+app.options('*', cors());
 
 app.get('/api/health', (_req, res) => {
   res.json({ status: 'ok', service: 'hackathon-panel-api' });
