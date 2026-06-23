@@ -35,6 +35,7 @@ const corsOptions = {
 
 app.use(cors(corsOptions));
 app.options('*', cors(corsOptions));
+app.use(express.json());
 
 app.get('/api/health', (_req, res) => {
   res.json({ status: 'ok', service: 'hackathon-panel-api' });
