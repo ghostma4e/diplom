@@ -172,9 +172,9 @@ router.patch('/:id/score', authMiddleware, async (req, res) => {
       return res.status(404).json({ error: 'Team not found' });
     }
 
-    if (team.leader_id !== req.user.id && req.user.role !== 'admin') {
-      return res.status(403).json({ error: 'Only team leader or admin can update score' });
-    }
+    if (req.user.role !== 'admin') {
+  return res.status(403).json({ error: 'Only admin can update score' });
+}
 
     const { data, error } = await supabase
       .from('teams')

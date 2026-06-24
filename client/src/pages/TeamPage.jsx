@@ -51,11 +51,6 @@ export default function TeamPage({ isGuest, user, onRequestLogin }) {
             await api.joinTeam(code);
             await loadTeam();
           }}
-          onUpdateScore={async (score) => {
-            if (!myTeam) return;
-            await api.updateTeamScore(myTeam.id, score);
-            await loadTeam();
-          }}
           onDisbandTeam={async () => {
             await api.disbandTeam();
             await loadTeam();

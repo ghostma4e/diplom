@@ -8,7 +8,6 @@ export default function TeamPanel({
   members,
   onCreateTeam,
   onJoinTeam,
-  onUpdateScore,
   onDisbandTeam,
 }) {
   const { t } = useLocale();
@@ -16,7 +15,6 @@ export default function TeamPanel({
   const { confirm } = useConfirm();
   const [teamName, setTeamName] = useState('');
   const [inviteCode, setInviteCode] = useState('');
-  const [score, setScore] = useState('');
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
 
@@ -51,19 +49,6 @@ export default function TeamPanel({
     }
   }
 
-  async function handleScoreUpdate(event) {
-    event.preventDefault();
-    setError('');
-    setLoading(true);
-    try {
-      await onUpdateScore(Number(score));
-      setScore('');
-    } catch (err) {
-      setError(err.message);
-    } finally {
-      setLoading(false);
-    }
-  }
 
   async function handleDisband() {
     const ok = await confirm({
@@ -166,23 +151,7 @@ export default function TeamPanel({
 
         {error && <p className="error">{error}</p>}
 
-        {(isLeader || user?.role === 'admin') && (
-          <form onSubmit={handleScoreUpdate} className="score-form">
-            <label>
-              {t('team.scorePh')}
-              <input
-                type="number"
-                min="0"
-                value={score}
-                onChange={(e) => setScore(e.target.value)}
-                placeholder="0"
-              />
-            </label>
-            <button type="submit" className="btn-primary" disabled={loading}>
-              {t('team.updateScore')}
-            </button>
-          </form>
-        )}
+        
 
         {canDisband && (
           <button

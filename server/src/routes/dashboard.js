@@ -35,31 +35,37 @@ router.get('/leaderboard', async (_req, res) => {
   try {
     const { data, error } = await supabase
       .from('teams')
-      .select(
-        `
+      .select(`
         id,
         team_name,
-        score,
         created_at,
-        projects(id, project_name),
+        projects(id, project_name, project_ratings(score)),
         team_members(id)
-      `
-      )
-      .order('score', { ascending: false })
+      `)
       .limit(20);
 
     if (error) {
       return res.status(500).json({ error: error.message });
     }
 
-    const leaderboard = (data || []).map((team, index) => ({
-      rank: index + 1,
-      id: team.id,
-      teamName: team.team_name,
-      score: team.score,
-      projectsCount: team.projects?.length ?? 0,
-      membersCount: team.team_members?.length ?? 0,
-    }));
+    const leaderboard = (data || [])
+      .map((team) => {
+        const juryScore = (team.projects || []).reduce((sum, p) => {
+          const rating = Array.isArray(p.project_ratings)
+            ? p.project_ratings[0]
+            : p.project_ratings;
+          return sum + (rating?.score ?? 0);
+        }, 0);
+        return {
+          id: team.id,
+          teamName: team.team_name,
+          score: juryScore,
+          projectsCount: team.projects?.length ?? 0,
+          membersCount: team.team_members?.length ?? 0,
+        };
+      })
+      .sort((a, b) => b.score - a.score)
+      .map((team, index) => ({ rank: index + 1, ...team }));
 
     return res.json({ leaderboard });
   } catch (error) {
